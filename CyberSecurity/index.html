@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta name="color-scheme" content="dark">
+  <link rel="icon" href="data:,">
+  <title>信息安全协会 · 2026 招新</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/presentation.css">
+</head>
+<body>
+  <main id="viewport" aria-label="信息安全协会招新动态演示文稿">
+    <div id="stage" class="stage">
+      <canvas id="ambient-canvas" width="1920" height="1080" aria-hidden="true"></canvas>
+      <div class="atmosphere" aria-hidden="true">
+        <div class="grid"></div>
+        <div class="beam beam-a"></div>
+        <div class="beam beam-b"></div>
+        <div class="scanline"></div>
+        <div class="vignette"></div>
+        <div class="noise"></div>
+      </div>
+
+      <header class="brand" aria-label="华中师范大学信息安全协会">
+        <img src="Logo-ccnu.png" alt="华中师范大学">
+        <div class="brand-rule"></div>
+        <div class="brand-meta"><span>SECURITY ASSOCIATION</span><span>CCNU // 2026</span></div>
+      </header>
+
+      <section class="slides" id="slides">
+        <article class="slide slide-01 active" data-index="0" aria-hidden="false">
+          <div class="opening-orbit" aria-hidden="true"><i></i><i></i><i></i></div>
+          <div class="hero-copy">
+            <div class="eyebrow reveal" style="--d:.18s">华中师范大学 · 信息安全协会</div>
+            <h1 class="hero-title">
+              <span class="title-line reveal clip" style="--d:.28s">进入</span>
+              <span class="title-line title-ghost reveal clip" style="--d:.43s">信息安全世界</span>
+            </h1>
+            <div class="hero-sub reveal" style="--d:.62s">
+              <span>2026 招新</span><b></b><span>RECRUITMENT // ACCESS OPEN</span>
+            </div>
+          </div>
+          <div class="terminal terminal-opening reveal" style="--d:.78s" data-terminal="opening">
+            <div class="terminal-head"><span>BOOT SEQUENCE</span><span>NODE 00-CCNU</span></div>
+            <div class="terminal-body" aria-live="polite"></div>
+          </div>
+          <div class="edge-label left">SECURE CHANNEL // ESTABLISHED</div>
+        </article>
+
+        <article class="slide slide-02" data-index="1" aria-hidden="true">
+          <div class="slide-kicker reveal" style="--d:.08s">02 // 换一种方式理解世界</div>
+          <div class="question-field">
+            <p class="float-q q1 reveal" style="--d:.46s">如果换一个参数，会发生什么？</p>
+            <p class="float-q q2 reveal" style="--d:.58s">如果系统信任了不该信任的人？</p>
+            <p class="float-q q3 reveal" style="--d:.70s">如果跳过这一步，规则还成立吗？</p>
+            <p class="float-q q4 reveal" style="--d:.82s">如果设计者遗漏了这个边界？</p>
+            <div class="question-core">
+              <div class="crosshair" aria-hidden="true"></div>
+              <h2 class="what-if reveal focus" style="--d:.18s">如果呢<span>？</span></h2>
+              <div class="question-code reveal" style="--d:.36s">ASSUMPTION_01 // UNVERIFIED</div>
+            </div>
+          </div>
+          <p class="cn-statement reveal" style="--d:.92s"><span>安全研究</span>，本质上是重新理解规则。</p>
+        </article>
+
+        <article class="slide slide-03" data-index="2" aria-hidden="true">
+          <div class="slide-heading">
+            <div class="slide-kicker reveal" style="--d:.06s">03 // 不止一种成长方向</div>
+            <h2 class="page-title reveal clip" style="--d:.14s">你的能力版图</h2>
+          </div>
+          <div class="battlefield">
+            <div class="battle-row reveal" style="--d:.22s"><span class="battle-no">01</span><h3>信息收集与分析</h3><p>从公开线索中建立可靠判断</p><code>OSINT // TRACE // VERIFY</code></div>
+            <div class="battle-row reveal" style="--d:.32s"><span class="battle-no">02</span><h3>编程与工程</h3><p>把想法写成可运行的工具</p><code>PYTHON / C++ / AUTOMATION</code></div>
+            <div class="battle-row reveal" style="--d:.42s"><span class="battle-no">03</span><h3>漏洞挖掘与 Web 安全</h3><p>理解业务逻辑，完成真实验证</p><code>WEB // SRC // HACKTHEBOX</code></div>
+            <div class="battle-row reveal" style="--d:.52s"><span class="battle-no">04</span><h3>二进制底层原理</h3><p>读懂内存、汇编与计算机组成</p><code>0x7ffd → rsp + 0x28</code></div>
+            <div class="battle-row reveal" style="--d:.62s"><span class="battle-no">05</span><h3>AI 与模型安全</h3><p>探索新系统的能力边界与风险</p><code>MODEL // AGENT // RED TEAM</code></div>
+          </div>
+          <div class="field-index reveal" style="--d:.78s">安全训练带来的能力，可以迁移到更广阔的计算机科学与真实问题中。</div>
+        </article>
+
+        <article class="slide slide-04" data-index="3" aria-hidden="true">
+          <div class="ctf-title-block">
+            <div class="slide-kicker reveal" style="--d:.06s">04 // 在真实对抗中成长</div>
+            <h2 class="ctf-title"><span class="reveal clip" style="--d:.13s">把知识</span><span class="reveal clip" style="--d:.23s">变成行动</span></h2>
+            <p class="ctf-note reveal" style="--d:.31s">CTF 是高密度训练场，<br>真实漏洞与工程实践才是更远的边界。</p>
+          </div>
+          <div class="attack-chain" aria-label="分析、验证、突破、复盘">
+            <div class="hud-bracket left-bracket"></div><div class="hud-bracket right-bracket"></div>
+            <div class="chain-track"><i></i></div>
+            <div class="chain-step reveal" style="--d:.35s"><span>01</span><b>分析</b><small>DISCOVER</small></div>
+            <div class="chain-step reveal" style="--d:.49s"><span>02</span><b>验证</b><small>VERIFY</small></div>
+            <div class="chain-step reveal" style="--d:.63s"><span>03</span><b>突破</b><small>EXECUTE</small></div>
+            <div class="flag reveal" style="--d:.82s"><span>复盘：把一次解题变成长期能力</span><i></i></div>
+          </div>
+          <aside class="leaderboard reveal" style="--d:.58s">
+            <div class="leader-head"><span>实践路径</span><span>STATUS</span></div>
+            <div><span><b>01</b> 竞赛训练</span><strong>READY</strong></div>
+            <div><span><b>02</b> 漏洞研究</span><strong>READY</strong></div>
+            <div class="you"><span><b>03</b> 你的方向</span><strong>OPEN</strong></div>
+          </aside>
+          <div class="target-reticle" aria-hidden="true"><i></i><i></i></div>
+        </article>
+
+        <article class="slide slide-05" data-index="4" aria-hidden="true">
+          <div class="slide-heading growth-heading">
+            <div class="slide-kicker reveal" style="--d:.06s">05 // 从零开始，找到自己的方向</div>
+            <h2 class="page-title reveal clip" style="--d:.14s">成长不是单行道</h2>
+          </div>
+          <div class="growth-map">
+            <svg viewBox="0 0 1500 350" preserveAspectRatio="none" aria-hidden="true">
+              <path class="growth-shadow" d="M35 260 C180 260 175 150 330 150 S495 255 650 245 S825 80 970 92 S1120 210 1260 165 S1370 70 1465 55" />
+              <path class="growth-line" d="M35 260 C180 260 175 150 330 150 S495 255 650 245 S825 80 970 92 S1120 210 1260 165 S1370 70 1465 55" />
+            </svg>
+            <div class="milestone m0 reveal" style="--d:.27s"><i></i><span>从零开始</span><small>BEGIN</small></div>
+            <div class="milestone m1 reveal" style="--d:.39s"><i></i><span>Linux</span><small>SHELL</small></div>
+            <div class="milestone m2 reveal" style="--d:.51s"><i></i><span>编程能力</span><small>ALGORITHM + BUILD</small></div>
+            <div class="milestone m3 reveal" style="--d:.63s"><i></i><span>计算机基础</span><small>SYSTEM</small></div>
+            <div class="milestone m4 reveal" style="--d:.75s"><i></i><span>安全实践</span><small>REAL WORLD</small></div>
+            <div class="milestone m5 reveal" style="--d:.90s"><i></i><span>自主研究</span><small>YOUR DIRECTION</small></div>
+          </div>
+          <div class="growth-quotes">
+            <div class="quote reveal" style="--d:.67s"><small>第一天</small><p>“我还不知道自己擅长什么。”</p></div>
+            <div class="quote quote-right reveal" style="--d:.94s"><small>某一天</small><p>“我已经能独立解决真实问题。”</p></div>
+          </div>
+          <div class="growth-mantra reveal" style="--d:1.04s">沿途获得算法、工程与系统能力，再选择真正想深入的计算机科学方向。</div>
+        </article>
+
+        <article class="slide slide-06" data-index="5" aria-hidden="true">
+          <div class="slide-heading loadout-heading">
+            <div class="slide-kicker reveal" style="--d:.06s">06 // 加入我们，立刻做什么</div>
+            <h2 class="page-title reveal clip" style="--d:.14s">从第一周开始行动</h2>
+          </div>
+          <div class="loadout-list">
+            <div class="loadout-item reveal" style="--d:.27s"><span class="load-num">01</span><h3>搭好环境</h3><p>Linux / Git / 编程工具链 / 安全实验环境</p><i></i></div>
+            <div class="loadout-item reveal" style="--d:.39s"><span class="load-num">02</span><h3>选择入口</h3><p>信息分析 / Web / 二进制 / AI 安全</p><i></i></div>
+            <div class="loadout-item reveal" style="--d:.51s"><span class="load-num">03</span><h3>进入小组</h3><p>跟学长讨论、调试、复现，再独立解决</p><i></i></div>
+            <div class="loadout-item reveal" style="--d:.63s"><span class="load-num">04</span><h3>完成作品</h3><p>一道题 / 一个工具 / 一份漏洞报告 / 一次分享</p><i></i></div>
+          </div>
+          <div class="support-network reveal" style="--d:.76s">
+            <small>实践与资源支持</small>
+            <span>华中师范大学信息化办公室 · 深度实践合作</span><i></i>
+            <span>“好靶场” · 战略支持</span><i></i>
+            <span>弈湖安全实验室</span><i></i>
+            <span>学长牵头 · 前沿安全情报</span>
+          </div>
+          <div class="loadout-complete reveal" style="--d:.92s"><span></span>第一周任务已就绪 <b>READY</b></div>
+        </article>
+
+        <article class="slide slide-07 achievements-slide" data-index="6" aria-hidden="true">
+          <div class="achievement-copy">
+            <div class="slide-kicker reveal" style="--d:.06s">07 // 成果与证明</div>
+            <h2 class="page-title reveal clip" style="--d:.14s">成长，看得见</h2>
+            <p class="achievement-lead reveal" style="--d:.25s">我们把训练变成竞赛结果，<br>也把研究变成真实漏洞证明。</p>
+            <div class="achievement-stats">
+              <div class="big-stat reveal" style="--d:.39s"><strong>前 300</strong><span>CISCN 初赛</span></div>
+              <div class="big-stat reveal" style="--d:.49s"><strong>80%</strong><span>成员拥有 NISP-I</span></div>
+            </div>
+            <div class="achievement-list reveal" style="--d:.62s">
+              <p><b>竞赛</b>ISCC 多次全国三等奖 / CISCN 复赛三等奖 / 网谷杯特等奖 / Hack The Box 赛季前 5000 名</p>
+              <p><b>漏洞</b>多张高校原创漏洞证书、CNVD 原创 0day 证书，以及漏洞盒子、补天等 SRC 原创漏洞证明</p>
+            </div>
+          </div>
+          <div class="evidence-wall" aria-label="竞赛与漏洞成果图片">
+            <figure class="evidence e1 reveal" style="--d:.30s"><img src="Prizes/ISCC.png" alt="ISCC 全国三等奖荣誉证书"><figcaption>ISCC // 全国三等奖</figcaption></figure>
+            <figure class="evidence e2 reveal" style="--d:.42s"><img src="Prizes/CISCN.jpg" alt="全国大学生信息安全竞赛获奖证书"><figcaption>CISCN // 复赛三等奖</figcaption></figure>
+            <figure class="evidence e3 reveal" style="--d:.54s"><img src="Prizes/高校SRC.jpg" alt="高校原创漏洞报送证书"><figcaption>高校 SRC // 原创漏洞</figcaption></figure>
+            <figure class="evidence e4 reveal" style="--d:.66s"><img src="Prizes/cnvd.jpg" alt="CNVD 原创漏洞证明"><figcaption>CNVD // 0DAY</figcaption></figure>
+          </div>
+          <div class="achievement-foot reveal" style="--d:.86s">证书只是坐标，真正留下的是发现问题、验证问题、解决问题的能力。</div>
+        </article>
+
+        <article class="slide slide-08" data-index="7" aria-hidden="true">
+          <div class="screening-head">
+            <div class="slide-kicker reveal" style="--d:.06s">08 // 我们在寻找谁</div>
+            <h2 class="page-title reveal clip" style="--d:.14s">我们不要现成的专家</h2>
+            <p class="screening-sub reveal" style="--d:.28s">我们要愿意一步步成为专家的人。</p>
+          </div>
+          <div class="audit-list">
+            <div class="audit-row muted reveal" style="--d:.34s"><span>编程经验</span><i></i><b>[ 不要求 ]</b></div>
+            <div class="audit-row muted reveal" style="--d:.42s"><span>竞赛经验</span><i></i><b>[ 不要求 ]</b></div>
+            <div class="audit-row muted reveal" style="--d:.50s"><span>安全基础</span><i></i><b>[ 不要求 ]</b></div>
+            <div class="audit-divider reveal" style="--d:.58s"><span>真正重要的信号</span></div>
+            <div class="audit-row required reveal" style="--d:.68s"><span>好奇心</span><i></i><b>[ 必须 ]</b></div>
+            <div class="audit-row required reveal" style="--d:.78s"><span>遇到问题不轻易放弃</span><i></i><b>[ 必须 ]</b></div>
+            <div class="audit-row required reveal" style="--d:.88s"><span>愿意持续学习与分享</span><i></i><b>[ 必须 ]</b></div>
+          </div>
+          <div class="accepted reveal" style="--d:1.06s"><small>CANDIDATE STATUS</small><strong>ACCEPTED</strong><i></i></div>
+        </article>
+
+        <article class="slide slide-09" data-index="8" aria-hidden="true">
+          <div class="final-halo" aria-hidden="true"></div>
+          <div class="final-copy">
+            <div class="slide-kicker reveal" style="--d:.06s">09 // 从这里开始</div>
+            <h2 class="final-title"><span class="reveal clip" style="--d:.17s">准备好</span><span class="reveal clip" style="--d:.29s">出发了吗？</span></h2>
+            <div class="terminal final-terminal reveal" style="--d:.48s" data-terminal="final">
+              <div class="terminal-body" aria-live="polite"></div>
+            </div>
+            <div class="final-club reveal" style="--d:1.18s"><strong>信息安全协会</strong><span>JOIN US.</span></div>
+          </div>
+          <aside class="join-panel reveal" style="--d:1.28s">
+            <div class="qr-frame" id="qr-frame" aria-label="招新二维码占位">
+              <img id="qr-image" alt="招新群二维码">
+              <div class="qr-placeholder"><span>QR</span><small>PLACE IMAGE<br>IN CONFIG</small></div>
+              <i></i><i></i><i></i><i></i>
+            </div>
+            <div class="join-info">
+              <div><small>招新群</small><span id="recruit-group">待更新</span></div>
+              <div><small>QQ群</small><span id="qq-group">待更新</span></div>
+              <div><small>地点</small><span id="location">待更新</span></div>
+            </div>
+          </aside>
+          <div class="first-flag reveal" style="--d:1.46s">你的第一个真实问题，从这里开始。<span></span></div>
+        </article>
+      </section>
+
+      <footer class="deck-footer" aria-hidden="true">
+        <div class="system-status"><i></i><span id="system-status">SYSTEM ONLINE</span></div>
+        <div class="progress-track"><i id="progress-bar"></i></div>
+        <div class="page-counter"><span id="page-current">01</span><b>/</b><span>09</span></div>
+      </footer>
+    </div>
+  </main>
+  <script src="js/config.js"></script>
+  <script src="js/effects.js"></script>
+  <script src="js/presentation.js"></script>
+</body>
+</html>
