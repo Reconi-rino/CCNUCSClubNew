@@ -2,7 +2,8 @@
 node_modules/
 
 # 构建产物
-dist/
+# dist/ 是「预编译静态产物」，为了让上游 owner 免构建直接部署，已入库；
+# 重新构建：npm install && npm run build（构建后 scripts/relativize.mjs 会自动把根绝对路径改成相对路径）。
 .astro/
 
 # 日志
