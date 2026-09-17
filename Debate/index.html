@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>2026级 CS 辩论队 · 线上宣讲</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="assets/deck.js"></script>
+  <script defer src="presentation.js"></script>
+</head>
+<body>
+  <main id="viewer" aria-label="2026 辩论队线上宣讲">
+    <div id="frame"><div id="stage" role="img" aria-label="幻灯片"></div></div>
+  </main>
+  <nav aria-label="演示控制">
+    <button id="prev" title="上一页（←）">上一页</button>
+    <label class="page-label"><span class="sr-only">选择页码</span><select id="pages" aria-label="选择页码"></select></label>
+    <button id="next" title="下一步（空格 / →）">下一步</button>
+    <span class="divider"></span>
+    <button id="replay" title="重播本页动画（R）">重播本页</button>
+    <button id="all">显示完整页</button>
+    <button id="fullscreen" title="全屏（F）">全屏</button>
+    <span id="status" role="status" aria-live="polite"></span>
+  </nav>
+  <p id="hint">点击画面或按空格播放下一步 · ← 上一页 · R 重播 · F 全屏</p>
+  <noscript>请启用浏览器的 JavaScript，以播放原 PPT 的动画。</noscript>
+</body>
+</html>
